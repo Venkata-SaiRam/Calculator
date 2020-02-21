@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+Using Calculate;
 public class ArthematicOperations : MonoBehaviour
 {
      public InputField Field1;
