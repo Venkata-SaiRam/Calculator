@@ -23,4 +23,17 @@ public class ArthematicOperations : MonoBehaviour
          int c = a*b;
          Result.text = c.ToString();
      }
+
+	  public void Division() {
+         int a = Convert.ToInt32(Field1.text);
+         int b = Convert.ToInt32(Field2.text);
+         int c = a/b;
+         Result.text = c.ToString();
+     }
+	 public void Subtraction() {
+         int a = Convert.ToInt32(Field1.text);
+         int b = Convert.ToInt32(Field2.text);
+         int c = a-b;
+         Result.text = c.ToString();
+     }
 }

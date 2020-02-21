@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Calculator.unity
+    guid: 6a87c42770aa4664ba30f737b1289358
   m_configObjects: {}
